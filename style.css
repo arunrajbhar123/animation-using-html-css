@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Rubik&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding: 7rem 0;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #1291e0, #4128d3);
+}
+.text-heading {
+  /* font-family: ElectronicArtsDisplay, "DM Sans", Verdana, Helvetica, Arial,
+    sans-serif; */
+  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 38px;
+  line-height: 55px;
+  color: #f3f3f3;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  /* transition: all 2s ease-in-out; */
+}
+
+.box-sizing {
+  width: 200px;
+  background-color: #f3f3f3;
+  margin: 10px;
+  display: grid;
+  grid-column: auto;
+  width: 300px;
+  padding: 2rem 0;
+  cursor: pointer;
+ 
+}
+
+.box-sizing:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 18px 5px,
+    rgba(0, 0, 0, 0.22) 2px 8px 15px 2px;
+  position: relative;
+  top: -15px;
+  
+
+  
+  
+}
+
+.box-sizing b {
+  text-transform: capitalize;
+  line-height: 5rem;
+  font-size: 25px;
+}
+.box-sizing span {
+  text-decoration: underline;
+  font-size: 18px;
+  text-underline-offset: 2px;
+}
